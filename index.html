@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hamburger menu with js</title>
+    <link rel="stylesheet" href="css/fontello.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+    <link rel="stylesheet" href="css/javascript.css">
+    <link rel="stylesheet" href="css/output.css">
+</head>
+<body>
+    <section class="w-full h-auto mx-auto  bg-[#e9bf8b] *:text-black *:font-mo py-[5%] px-[10%] ">
+        <div class="row">
+            <div class="w-full h-[20%] border-b-[1px] border-b-[#2c2d2a27]  ">
+               
+               <div class="row flex justify-between">
+                <div class="h-full w-[20%]">
+                    <div class="nav-container">
+                        <div class="ham">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                        </div>
+                        <ul id="menu" class="w-[400px] lg:w-[1000px] xl:w-[1200px] menu  *:cursor-pointer">
+                          <li class="hover:bg-black hover:text-[#e9bf8b] text-black">Mask</li>
+                          <li class="hover:bg-black hover:text-[#e9bf8b] text-black">Helmet</li>
+                          <li class="hover:bg-black hover:text-[#e9bf8b] text-black">Bottle  </li>
+                          <li class="hover:bg-black hover:text-[#e9bf8b] text-black">Accessories</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="h-full w-[20%] flex justify-end">
+                    <ul class="row  flex justify-end">
+                        <li class="text-[20px]"><i class=" icon-search"></i></li>
+                        <li class="hidden md:flex text-[20px]"><i class=" icon-user"></i></li>
+                        <li class="text-[20px]"><i class=" icon-grocery-store"></i></li>
+                    </ul>
+                </div>
+               </div>
+
+            </div>
+            <div class="w-full h-[80%] relative z-0">
+                <div class="row">
+                    <div class="w-full h-1/2 lg:hidden">
+                        
+                        <img class="flex w-full h-full lg:hidden" src="img/Closca_Bottle_Wave_Sahara_600ml_Close.png" alt="">
+                    </div>
+                    <div class="w-full h-1/2 text-center lg:text-start lg:w-[50%] lg:h-full *:py-[5%]">
+                        <h4 class="text-[18px] font-mo font-extralight">CLOSCA BOTTLE</h4>
+                        <h1 class="text-[40px] font-mo font-extrabold">Savanna</h1>
+                        <h5 class="text-[18px] font-mo">$39.90</h5>
+                        <h2 class="lg:w-1/2 text-[25px] font-eb font-extrabold">The Earth’s area affected by desertification is approx 11 times India’s size.</h2>
+                        <p class="lg:w-1/2 font-mo">The Savannas act as a carbon sink, absorbing CO2 from the atmosphere and helping to maintain the balance of global temperatures.</p>
+                        <p class="font-mo font-extrabold cursor-pointer">Shop Now <i class=" icon-right "></i></p>
+                        
+                    </div>
+                    <div class="hidden lg:flex lg:w-[50%] lg:h-full">
+                        
+                        <img class="hidden lg:flex w-full h-full" src="img/Closca_Bottle_Wave_Sahara_600ml_Close.png" alt="">
+                    </div>
+                  
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="w-full h-[250px] bg-[#5a4225] mx-auto">
+        <!-- my signature -->
+            <figure class=" group w-[130px] h-[130px] flex flex-wrap fixed z-10 left-[10px] bottom-[80px] rounded-full cursor-pointer ">
+                <img class="bg-[#b6874e] relative z-10 w-full h-full object-cover rounded-full *:text-white" src="img/me.png" alt="">
+                <section class="group-hover:right-[-41px] group-hover:opacity-100 group-hover:visible w-[40px] h-[90px] absolute top-0 right-[70px] opacity-0 invisible duration-[.4s] ease-linear hover:right-[-45px] hover:opacity-100 hover:visible">
+                    <a class="flex items-center justify-center w-full h-[40px] rounded-full bg-[#b6874e] text-white flex-[18px] mb-[5px] duration-[.3s] ease-linear relative hover:bg-pink hover:text-black" href="https://github.com/SabaAsgarian" target="_blank"><i class="icon-github-circled-1"></i></a>
+                    <a class="flex items-center justify-center w-full h-[40px] rounded-full bg-[#b6874e] text-white flex-[18px] mb-[5px] duration-[.3s] ease-linear relative hover:bg-pink hover:text-black" href="https://www.linkedin.com/in/saba-asgarian-69161088?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class=" icon-linkedin-3 "></i></a>
+                    <a class="flex items-center justify-center w-full h-[40px] rounded-full bg-[#b6874e] text-white flex-[18px] mb-[5px] duration-[.3s] ease-linear relative hover:bg-pink hover:text-black" href="https://www.instagram.com/saba_asgarian_web?igsh=M2Z2dTU3cHFmeW1o&utm_source=qr" target="_blank"><i class=" icon-instagram-1"></i></a>
+                    <a class="flex items-center justify-center w-full h-[40px] rounded-full bg-[#b6874e] text-white flex-[18px] mb-[5px] duration-[.3s] ease-linear relative hover:bg-pink hover:text-black" href="mailto:computer.sabaa@gmail.com" target="_blank"><i class="icon-mail"></i></a>
+                                            
+                </section>
+            </figure>
+            <!-- my signature -->
+            <section class="w-full h-full border-t-purple-200 border-t-[1px] *:text-white flex justify-center   py-[50px] flex-wrap *:text-center">
+                <p class="w-full h-1/2 flex justify-center items-center text-center">Developed By &nbsp; <a class="hover:text-[#e9bf8b]" href="https://github.com/SabaAsgarian" target="_blank"> Saba Asgarian </a> &nbsp; with Tailwind & JavaScript</p>
+                <ul class="w-full h-1/2 ps-[20px] flex flex-wrap  *:text-[#fef6e6] text-[15px] lg:text-[24px] *:text-[15px] *:lg:text-[30px]   justify-center items-center *:mx-[8px]">
+                    <li><a class="flex py-[4px] px-[4px]  hover:bg-[#e9bf8b] justify-center items-center bg-[#b6874e]" href="https://github.com/SabaAsgarian" target="_blank"><i class="icon-github-circled-1 "></i></a></li>
+                    <li><a class="flex py-[4px] px-[4px]  hover:bg-[#e9bf8b] justify-center items-center bg-[#b6874e]" href="https://www.linkedin.com/in/saba-asgarian-69161088?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class=" icon-linkedin-3"></i></a></li>
+                    <li><a class="flex py-[4px] px-[4px]  hover:bg-[#e9bf8b] justify-center items-center bg-[#b6874e]" href="https://www.instagram.com/saba_asgarian_web?igsh=M2Z2dTU3cHFmeW1o&utm_source=qr" target="_blank"><i class=" icon-instagram-1"></i></a></li>
+                    <li> <a class="flex py-[4px] px-[4px]  hover:bg-[#e9bf8b] justify-center items-center bg-[#b6874e]" href="mailto:computer.sabaa@gmail.com"><i class="icon-mail"></i></a></li>
+                </ul>
+            </section>
+            <span class="relative">
+                <a class="hover:bg-[#e9bf8b] fixed right-[2%] bottom-[5%] bg-[#333333cc] flex h-[50px] w-[40px] justify-center items-center text-white text-[18px] " href="#"><i class="icon-up-open-2"></i></a>
+            </span>
+    </footer>
+</body>
+<script>
+    let flag = 1
+const ham = document.querySelector('.ham')
+const menu = document.querySelector('#menu')
+    // const span = document.querySelector('span')
+    ham.addEventListener('click' , function(){
+        menu.classList.toggle('show-menu')
+       const temp = this.children
+    //    console.log(temp);
+       if(flag % 2){
+        temp[1].style.transform='translateX(-450px)'
+        temp[1].style.opacity='0'
+        temp[0].style.transform='translateY(20px)rotate(45deg)'
+        temp[2].style.transform='translateY(10px)rotate(-45deg)'
+       }else{
+        temp[1].style.transform='translateX(0px)'
+        temp[1].style.opacity='1'
+        temp[0].style.transform='rotate(0deg)'
+        temp[2].style.transform='rotate(0deg)'
+       }
+       flag++
+
+    })
+</script>
+</html>
+<!-- npx tailwindcss -i ./src/css/master.css -o ./src/css/output.css --watch -->
