@@ -1,0 +1,75 @@
+.nav-container {
+    position: relative;
+    display: inline-block; /* add this to make the container inline-block */
+  }
+  
+  .ham {
+    position: absolute;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    align-items: center;
+    cursor: pointer; /* add a pointer cursor to the hamburger menu */
+    >span{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    border-radius: 2px;
+    background-color: #000;
+    margin: 5px;
+    transition: 0.5s;
+    z-index: 3;
+    
+    &:nth-of-type(1){
+      top: -30%;
+    }
+    &:nth-of-type(2){
+        top: -10%;
+    }
+    &:nth-of-type(3){
+        top: 10%;
+    }
+    }
+  }
+  
+  
+  
+  
+  
+  .menu {
+    position: absolute;
+    z-index: 2;
+    display: none; /* hide the menu by default */
+    background: #e9bf8b;
+    padding-top: 20%;
+    transition: 1s;
+    top: 30px;
+    left: 0;
+    
+    >li{
+      
+       
+        list-style-type: none;
+        width: 100%;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        height: 75px;
+        border-bottom: 2px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        background-color: #e9bf8b;
+        /* background-color: red; */
+        color: black;
+    }
+  }
+  
+  .show-menu {
+    display: block; /* show the menu when the class is added */
+  }
+ 

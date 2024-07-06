@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{padding: 0;margin: 0;box-sizing: border-box;}
+@font-face {
+    font-family: mo;
+    src: url(../font/Montserrat-Regular.ttf),sans-serif;
+}
+@font-face {
+    font-family: eb;
+    src: url(../font/EBGaramond-Regular.ttf),serif;
+}
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
